@@ -116,10 +116,9 @@
                 next()
             }
         } else if (e.key === 'w') {
-            window.open(e.shiftKey ?
-                'https://www.bilibili.com/watchlater/#/list':
-                'https://www.bilibili.com/medialist/play/watchlater'
-            )
+            window.open('https://www.bilibili.com/medialist/play/watchlater')
+        } else if (e.key === 'W') {
+            window.open('https://www.bilibili.com/watchlater/#/list')
         } else if (e.key === 'r') {
             returnHome()
         }
@@ -140,13 +139,13 @@
             render()
             if(main) {
                 main = null
-                document.querySelectorAll(`#${cont.id} ~ *`).forEach(e => e.remove());
+                document.querySelectorAll(`#${cont.id} ~ *`).forEach(e => e.remove())
             }
         }
     }
     function returnHome(){
         localStorage.biliViewerDisabled = 1
-        cont.remove();
+        cont.remove()
         if(main) {
             main.style.cssText = ''
         }else {
@@ -165,10 +164,10 @@
     
 
     let data = load()
-    let loading = false;
+    let loading = false
     async function load(){
         if (loading) {
-            return data;
+            return data
         }
         loading = true
         try {
@@ -220,7 +219,7 @@
                     "method": "POST",
                     "mode": "cors",
                     "credentials": "include"
-                });
+                })
                 let { code, message } = await res.json()
                 later.innerHTML = {
                     0: '已加入',
@@ -231,4 +230,4 @@
         cont.scrollBy(list.clientWidth, 0)
         data = load()
     }
-})();
+})()
