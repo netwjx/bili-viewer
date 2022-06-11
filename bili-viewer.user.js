@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         bili-viewer
 // @namespace    bili-viewer
-// @version      1.1
+// @version      1.2
 // @description  b站大屏视频下饭
 // @author       netwjx
 // @match        https://www.bilibili.com/
-// @updateURL    https://raw.githubusercontent.com/netwjx/bili-viewer/main/bili-viewer.user.js
-// @downloadURL  https://raw.githubusercontent.com/netwjx/bili-viewer/main/bili-viewer.user.js
+// @updateURL    https://github.com/netwjx/bili-viewer/raw/master/bili-viewer.user.js
+// @downloadURL  https://github.com/netwjx/bili-viewer/raw/master/bili-viewer.user.js
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM_addStyle
 // ==/UserScript==
