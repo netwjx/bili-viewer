@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bili-viewer
 // @namespace    bili-viewer
-// @version      1.0
+// @version      1.1
 // @description  b站大屏视频下饭
 // @author       netwjx
 // @match        https://www.bilibili.com/
