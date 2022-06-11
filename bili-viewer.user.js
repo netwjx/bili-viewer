@@ -6,9 +6,9 @@
 // @author       netwjx
 // @match        https://www.bilibili.com/
 // @updateURL    https://raw.githubusercontent.com/netwjx/bili-viewer/main/bili-viewer.user.js
+// @downloadURL  https://raw.githubusercontent.com/netwjx/bili-viewer/main/bili-viewer.user.js
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM_addStyle
-// 
 // ==/UserScript==
 
 (async function() {
